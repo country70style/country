@@ -1,0 +1,16 @@
+@charset "utf-8";
+
+/* -------------------- header --------------------*/
+#header {
+    width: 100%;
+}
+
+#header h1 {
+    margin: 0;
+    padding: 0;
+}
+
+#gameHeader {
+    width: 80%;
+    height: auto;
+}

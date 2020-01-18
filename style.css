@@ -7,7 +7,7 @@
 }
 
 #nav ul {
-    margin: 0;
+    margin: 30px;
     padding: 0;
     list-style-type: none;
     display: flex;
@@ -15,32 +15,47 @@
 
 #nav ul li {
     width: 20%;
-    text-align: center;
+	text-align: center;
 }
 
 #nav ul li a {
-	display: block;
 	height: 20px;
-	margin: 0;
-	padding: 30px;
-	color: black;
+	margin-top: 30px;
+	padding: 0;
+	color: lightblue;
 	font-size: 20px;
 	text-decoration: none;
-	background-color: white;
 }
 
 #header {
-    width: 100%;
+	width: 100%;
+	background-color: lightgrey;
 }
 
-#header h1 {
+#header-text h1 {
     margin: 0;
-    padding: 0;
+	padding: 0;
+	position: relative;
 }
 
 #gameHeader {
     width: 100%;
-    height: 700px;
+	height: 100px;
+	margin-top: 50px;
+}
+
+#header-text h1 p {
+	position: absolute;
+	top: 70%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	margin: 0;
+	padding: 0;
+	color: white;
+	font-weight: bold;
+	font-size:　3em;
 }
 
 body {
@@ -50,6 +65,44 @@ body {
 	color: #333;
 	font-size: 13px;
 	line-height: 150%;
+	background-color: black;
 }
 
-/* -------------------- container --------------------*/
+/* -------------------- main -------------------- */
+#mainImage {
+	width: 100%;
+	height: 700px;
+}
+
+#quest ul {
+	display: table;
+	width: 100%;
+}
+
+#quest ul li {
+	display: table-cell;
+}
+
+#wepon-armor ul {
+	display: table;
+	width: 100%;
+}
+
+#wepon-armor ul li {
+	display: table-cell;
+}
+
+#etc ul {
+	display: table;
+	width: 100%;
+}
+
+#etc ul li {
+	display: table-cell;
+}
+
+/* -------------------- footer -------------------- */
+#footer {
+	font-size: 15px;
+	text-align: center;
+}

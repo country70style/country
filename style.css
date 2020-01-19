@@ -75,34 +75,43 @@ body {
 }
 
 #quest ul {
-	display: table;
+	display: flex;
 	width: 100%;
 }
 
 #quest ul li {
-	display: table-cell;
+	flex-grow: 1;
+	list-style: none;
+	box-sizing: border-box;
 }
 
 #wepon-armor ul {
-	display: table;
+	display: flex;
 	width: 100%;
 }
 
 #wepon-armor ul li {
-	display: table-cell;
+	flex-grow: 1;
+	list-style: none;
+	box-sizing: border-box;
 }
 
 #etc ul {
-	display: table;
+	display: flex;
 	width: 100%;
 }
 
 #etc ul li {
-	display: table-cell;
+	flex-grow: 1;
+	list-style: none;
+	box-sizing: border-box;
 }
+
 
 /* -------------------- footer -------------------- */
 #footer {
 	font-size: 15px;
 	text-align: center;
+	padding: 10px;
+	margin: 10px;
 }
